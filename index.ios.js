@@ -1,5 +1,3 @@
-'use strict';
-
 import React, { Component } from 'react';
 import {
   AppRegistry,
@@ -8,14 +6,6 @@ import {
 } from 'react-native';
 import Featured from './Featured';
 import Search from './Search';
-// var React = require('react-native');
-// var Featured = require('./featured');
-// var Search = require('./search');
-// var {
-//     AppRegistry,
-//     TabBarIOS,
-//     Component
-//    } = React;
 
 export default class BookSearch extends Component {
     constructor(props) {
